@@ -15,7 +15,7 @@ class HyperLink extends StatelessWidget {
       child: Text(
         text,
         style: TextStyle(
-            color: AppColors.blueLight,
+            color: AppColors.blue100,
             fontWeight: bold ? FontWeight.bold : FontWeight.normal),
       ),
     );

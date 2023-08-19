@@ -30,11 +30,13 @@ class GetStarted extends StatelessWidget {
                 ),
                 Container(
                   margin: const EdgeInsets.fromLTRB(0, 0, 0, 20),
-                  child: const Text(
-                    "Easy way to manage your business",
+                  child: Text(
+                    "The easiest way to manage your business",
                     textAlign: TextAlign.center,
-                    style: TextStyle(
-                        color: AppColors.grey, fontWeight: FontWeight.bold),
+                    style: Theme.of(context).textTheme.bodyMedium?.merge(
+                        const TextStyle(
+                            color: AppColors.black100,
+                            fontWeight: FontWeight.bold)),
                   ),
                 ),
                 ElevatedButton(
@@ -48,14 +50,16 @@ class GetStarted extends StatelessWidget {
                       style: TextStyle(fontWeight: FontWeight.bold),
                     )),
                 Container(
-                  margin: const EdgeInsets.fromLTRB(0, 12, 0, 24),
+                  margin: const EdgeInsets.fromLTRB(0, 12, 0, 48),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Text(
+                      Text(
                         "Already have an account?",
-                        style: TextStyle(
-                            color: AppColors.grey, fontWeight: FontWeight.bold),
+                        style: Theme.of(context).textTheme.bodyMedium?.merge(
+                            const TextStyle(
+                                color: AppColors.black100,
+                                fontWeight: FontWeight.bold)),
                       ),
                       const SizedBox(width: 5),
                       HyperLink(
