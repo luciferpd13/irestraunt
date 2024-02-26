@@ -4,8 +4,6 @@ import 'package:irestraunt/widgets/appColors/appColors.dart';
 import '../../widgets/hyperLink/HyperLink.dart';
 
 class GetStarted extends StatelessWidget {
-  const GetStarted({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
